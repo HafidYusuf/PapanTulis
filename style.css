@@ -38,12 +38,17 @@ h1, h2, h3, h4 {
   line-height: 100%;
 }
 
+.paytone {
+  font-family: Paytone One;
+}
+
 form {
   display: flex;
   flex-direction: column;
   color: var(--black);
 }
-form input, form select {
+
+input, select {
   padding: 18px 18px;
   border-radius: 12px;
   border: solid 2px var(--black-light);
@@ -196,6 +201,13 @@ form {
 }
 .material-header .header-circle {
   background: var(--green);
+}
+
+.search-header {
+  background: var(--blue-light);
+}
+.search-header .header-circle {
+  background: var(--blue);
 }
 
 .picture-container {
@@ -575,4 +587,45 @@ nav {
 }
 .AI-helper-correction p {
   margin: 24px 0px;
+}
+
+.search-input {
+  margin-top: 24px;
+  margin-bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.subject {
+  padding: 24px 0px;
+  height: 120px;
+  width: 31%;
+  text-align: center;
+  border: solid 2px var(--black-light);
+  border-radius: 14px;
+  display: inline-block;
+  letter-spacing: 0;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 2%;
+}
+.subject .subject-icon {
+  font-size: 32px;
+}
+.subject h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.subject-category a:nth-child(3n) .subject {
+  margin-right: 0px;
+}
+
+.search-result-category {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 48px;
+  margin-bottom: -18px;
 }/*# sourceMappingURL=style.css.map */
